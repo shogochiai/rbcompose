@@ -1,0 +1,22 @@
+# .dockerignore
+
+## environment normalization
+.env
+.bundle
+# ホストマシン側で bundle install --path vendor/bundle している場合
+vendor/bundle
+.ruby-version
+
+## git
+.git
+.gitignore
+
+## log
+log
+tmp
+
+## docker
+.dockerignore
+
+## etc
+# 他にも色々あるけど省略
